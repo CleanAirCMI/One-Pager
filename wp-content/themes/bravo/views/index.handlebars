@@ -1,10 +1,10 @@
 {{>partials/header}}
 <section class="title-main">
-    <div class="title-main-image">
+    <div class="title-main-image" style="background-image: url({{header}});">
         <div class="title-main-overlay">
             <div class="title-main-text">
-                <h1>Team Bravo</h1>
-                <span>Project Stimular</span>
+                <h1>{{title_main.title}}</h1>
+                <span>{{title_main.subtitle}}</span>
             </div>
         </div>
     </div>
@@ -13,16 +13,7 @@
     <div class="container">
         <div class="row">
             <div class="main-description-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Curabitur in arcu ac purus fringilla mollis. Mauris lobortis dolor 
-                vitae arcu egestas, pretium lobortis urna aliquam. Aenean varius libero 
-                nec tellus porta gravida. Aenean cursus ultricies bibendum. Morbi semper 
-                massa sit amet ultricies maximus. Mauris id lorem elit. Vestibulum in orci 
-                ipsum. Integer et porta lectus. Morbi congue gravida elit, sed porttitor 
-                elit ultrices et. Suspendisse nec nibh nisi. Nam faucibus ac lorem in convallis. 
-                Nullam turpis ipsum, finibus nec porta non, imperdiet quis nisi. Nulla lorem 
-                felis, tincidunt vitae dapibus sed, mollis a tellus. Suspendisse sed urna ligula. 
-                Praesent auctor vitae purus quis aliquam. Donec ultrices est a felis dapibus semper.</p>
+                {{{main_description}}}
             </div>
         </div>
     </div>
@@ -33,22 +24,12 @@
             <div class="col-sm-12 col-md-12">
                 <h2>Team</h2>
             </div>
+            {{#members}}
             <div class="col-sm-12 col-md-3 team-member">
-                <img class="team-member-image" src="img/ali.JPG">
-                <h3>Ali Shahid</h3>
+                <img class="team-member-image" src="{{image}}">
+                <h3>{{name}}</h3>
             </div>
-            <div class="col-sm-12 col-md-3 team-member">
-                <img class="team-member-image" src="img/bas.JPG">
-                <h3>Bas Ekkelenkamp</h3>
-            </div>
-            <div class="col-sm-12 col-md-3 team-member">
-                <img class="team-member-image" src="img/wiwi.JPG">
-                <h3>Wiwi To</h3>
-            </div>
-            <div class="col-sm-12 col-md-3 team-member">
-                <img class="team-member-image" src="img/onno.JPG">
-                <h3>Onno Prins</h3>
-            </div>
+            {{/members}}
         </div>
     </div>
 </section>
@@ -58,36 +39,15 @@
             <div class="col-sm-12 col-md-12">
                 <h2>Concepten</h2>
             </div>
+            {{#concepts}}
             <div class="col-sm-12 col-md-12 concept">
-                <h3>Concept 1</h3>
-                <img class="concept-image" src="img/car.jpeg">
+                <h3>{{name}}</h3>
+                <img class="concept-image" src="{{image}}">
                 <div class="concept-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Curabitur in arcu ac purus fringilla mollis. Mauris lobortis dolor 
-                    vitae arcu egestas, pretium lobortis urna aliquam. Aenean varius libero 
-                    nec tellus porta gravida.</p>
+                    {{{content}}}
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 concept">
-                <h3>Concept 2</h3>
-                <img class="concept-image" src="img/car.jpeg">
-                <div class="concept-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Curabitur in arcu ac purus fringilla mollis. Mauris lobortis dolor 
-                    vitae arcu egestas, pretium lobortis urna aliquam. Aenean varius libero 
-                    nec tellus porta gravida.</p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 concept">
-                <h3>Concept 3</h3>
-                <img class="concept-image" src="img/car.jpeg">
-                <div class="concept-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Curabitur in arcu ac purus fringilla mollis. Mauris lobortis dolor 
-                    vitae arcu egestas, pretium lobortis urna aliquam. Aenean varius libero 
-                    nec tellus porta gravida.</p>
-                </div>
-            </div>
+            {{/concepts}}
         </div>
     </div>
 </section>
