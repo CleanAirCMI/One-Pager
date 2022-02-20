@@ -1,0 +1,75 @@
+[20-Feb-2022 11:46:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Handlebars\Handlebars' not found in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/compiler.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php(3): include()
+#1 /Applications/MAMP/htdocs/Stimular/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/Stimular/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/Stimular/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/compiler.php on line 7
+[20-Feb-2022 11:46:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Handlebars\Handlebars' not found in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/compiler.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php(3): include()
+#1 /Applications/MAMP/htdocs/Stimular/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/Stimular/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/Stimular/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/compiler.php on line 7
+[20-Feb-2022 11:46:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Handlebars\Handlebars' not found in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/compiler.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php(3): include()
+#1 /Applications/MAMP/htdocs/Stimular/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/Stimular/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/Stimular/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/compiler.php on line 7
+[20-Feb-2022 11:53:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Handlebars\Handlebars' not found in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/compiler.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php(3): include()
+#1 /Applications/MAMP/htdocs/Stimular/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/Stimular/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/Stimular/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/compiler.php on line 7
+[20-Feb-2022 11:58:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/global-data.php on line 25
+[20-Feb-2022 11:58:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/global-data.php on line 25
+[20-Feb-2022 12:21:48 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 30
+[20-Feb-2022 12:22:37 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 30
+[20-Feb-2022 12:23:51 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 34
+[20-Feb-2022 12:23:51 UTC] PHP Notice:  Undefined variable: Array in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 34
+[20-Feb-2022 12:23:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 34
+[20-Feb-2022 12:30:14 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:30:14 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:30:14 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:30:14 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:31:06 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:31:06 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:31:06 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:31:06 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:31:30 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:31:30 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:31:30 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:31:30 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:33:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 28
+[20-Feb-2022 12:33:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 28
+[20-Feb-2022 12:33:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 28
+[20-Feb-2022 12:33:59 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 28
+[20-Feb-2022 12:33:59 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 28
+[20-Feb-2022 12:33:59 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 28
+[20-Feb-2022 12:37:00 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:00 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:00 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:00 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:12 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:12 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:12 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:12 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:24 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:24 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:24 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:24 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:30 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:30 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:30 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:37:30 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/vendor/salesforce/handlebars-php/src/Handlebars/Template.php on line 375
+[20-Feb-2022 12:40:41 UTC] PHP Parse error:  syntax error, unexpected ''content'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 42
+[20-Feb-2022 12:41:02 UTC] PHP Parse error:  syntax error, unexpected ''content'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 42
