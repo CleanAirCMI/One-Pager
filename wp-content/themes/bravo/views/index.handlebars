@@ -1,0 +1,58 @@
+{{>partials/header}}
+<section class="welcome">
+    <div class="container">
+        <h1>{{home_introduction.quote}}</h1>
+    </div>
+</section>
+<section class="live">
+    <div class="container">
+        <div class="live-item">
+            <h2>Live TV</h2>
+            {{#home_live}}
+            <span>{{tv_text}}</span>
+            {{/home_live}}
+            <video preload="none" id="videoplayer" autoplay controls crossorigin>
+        </div>
+        <div class="live-item">
+            <h2>Live Radio</h2>
+            {{#home_live}}
+            <span>{{radio_text}}</span>
+            {{/home_live}}
+            <audio id="audioplayer" class="audioplayer" controls preload="auto"
+            width="600" height="50" data-setup='{}'>
+                <source src="https://olon.az.icecast.ebsd.ericsson.net/slos_fm_steenbergen" type='audio/mp3'/>
+            </audio>
+        </div>
+    </div>
+</section>
+<section class="news">
+    <div class="container">
+        <div class="news-title">
+            <h2>Nieuws</h2>
+            <a class="news-more more-link" href="{{homepage_news_link}}">Meer nieuws</a>
+        </div>
+        <div class="disclaimer-text">{{{option_news_disclaimer}}}</div>
+        <div class="row">
+            {{#news}}
+            <div class="col-lg-4 col-md-6 col-sm-12 news-item">
+                <a target="_blank" href="{{link}}">
+                    <img class="news-item-img" src="{{image}}">
+                    <h3>{{title}}</h3>
+                </a>
+            </div>
+            {{/news}}
+        </div>
+    </div>
+</section>
+<section class="route">
+    <div class="container">
+        <h2>{{home_route.title}}</h2>
+        <p class="route-subtext">{{{home_route.subtext}}}</p>
+        {{#home_route.files}}
+        <div class="route-item">
+            <a target="_blank" href="{{file.url}}"><i class="fas fa-download"></i>{{name}}</a>
+        </div>
+        {{/home_route.files}}
+    </div>
+</section>
+{{>partials/footer}}
