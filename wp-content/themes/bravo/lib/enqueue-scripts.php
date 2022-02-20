@@ -15,7 +15,7 @@ if (!function_exists('drelofs_scripts')) :
       wp_enqueue_script('vendor');
       wp_enqueue_script('script');
 
-    wp_register_style( 'style', get_template_directory_uri() . '/css/main.min.css' );
+    wp_register_style( 'style', get_template_directory_uri() . '/css/style.css' );
     wp_enqueue_style( 'style' );
 }
 

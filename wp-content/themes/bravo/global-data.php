@@ -22,22 +22,9 @@ $data = array(
   'home_url'                  => esc_url( home_url( '/' ) ),
   'blog_title'                => get_bloginfo(),
 
-  // 'option_request_link'       => get_field('option_request_project_link', 'option'),
-  // 'option_cookie_link'        => get_field('option_cookie_link', 'option'),
-  // 'option_news_disclaimer'    => get_field('option_news_disclaimer', 'option'),
-  // 'option_missed_disclaimer'  => get_field('option_missed_disclaimer', 'option'),
-
-  'loggedin' => is_user_logged_in();
+  'loggedin' => is_user_logged_in()
 );
 
 wp_reset_query();
-//Retrieves all menus
-global $post;
-$currentID = $post->ID;
-if($data['menu'] && count($data['menu']) >  0) {
-  foreach ( $data['menu'] as $page ) {
-    $page->active = (isset( $currentID ) && $page->object_id == $currentID) ? 'current' : '';
-  }
-}
 
 return $data;

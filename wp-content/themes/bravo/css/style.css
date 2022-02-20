@@ -1,0 +1,114 @@
+html {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #56e9ff;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.title-main {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+}
+
+.title-main-image {
+  height: 100%;
+  background-image: url("../img/background.jpeg");
+  background-position: center;
+}
+
+.title-main-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(22, 25, 53, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-main-text {
+  text-align: center;
+}
+
+.title-main-text h1 {
+  font-size: 80px;
+}
+
+.title-main-text span {
+  color: #ffffff;
+}
+
+.main-description {
+  padding: 2rem 0;
+  background-color: #161935;
+  color: lightgrey;
+  font-size: 24px;
+}
+
+.team-members {
+  padding: 2rem 0;
+  background-color: #161935;
+}
+
+.team-member {
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  text-align: center;
+  margin: 16px 0;
+  color: lightgrey;
+}
+
+.team-member-image {
+  display: block;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.concepts {
+  background-color: #161935;
+  padding: 2rem 0;
+}
+
+.concept {
+  margin: 1rem 0;
+}
+
+.concepts h3 {
+  color: #f90c82;
+}
+
+.concept-image {
+  display: block;
+  width: 100%;
+}
+
+.concept-text {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+footer {
+  padding: 1rem 0;
+  background-color: #0b0d1f;
+  text-align: center;
+  color: #56e9ff;
+}

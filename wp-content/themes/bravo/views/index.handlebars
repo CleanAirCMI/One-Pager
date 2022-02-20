@@ -1,58 +1,94 @@
 {{>partials/header}}
-<section class="welcome">
-    <div class="container">
-        <h1>{{home_introduction.quote}}</h1>
-    </div>
-</section>
-<section class="live">
-    <div class="container">
-        <div class="live-item">
-            <h2>Live TV</h2>
-            {{#home_live}}
-            <span>{{tv_text}}</span>
-            {{/home_live}}
-            <video preload="none" id="videoplayer" autoplay controls crossorigin>
-        </div>
-        <div class="live-item">
-            <h2>Live Radio</h2>
-            {{#home_live}}
-            <span>{{radio_text}}</span>
-            {{/home_live}}
-            <audio id="audioplayer" class="audioplayer" controls preload="auto"
-            width="600" height="50" data-setup='{}'>
-                <source src="https://olon.az.icecast.ebsd.ericsson.net/slos_fm_steenbergen" type='audio/mp3'/>
-            </audio>
-        </div>
-    </div>
-</section>
-<section class="news">
-    <div class="container">
-        <div class="news-title">
-            <h2>Nieuws</h2>
-            <a class="news-more more-link" href="{{homepage_news_link}}">Meer nieuws</a>
-        </div>
-        <div class="disclaimer-text">{{{option_news_disclaimer}}}</div>
-        <div class="row">
-            {{#news}}
-            <div class="col-lg-4 col-md-6 col-sm-12 news-item">
-                <a target="_blank" href="{{link}}">
-                    <img class="news-item-img" src="{{image}}">
-                    <h3>{{title}}</h3>
-                </a>
+<section class="title-main">
+    <div class="title-main-image">
+        <div class="title-main-overlay">
+            <div class="title-main-text">
+                <h1>Team Bravo</h1>
+                <span>Project Stimular</span>
             </div>
-            {{/news}}
         </div>
     </div>
 </section>
-<section class="route">
+<section class="main-description">
     <div class="container">
-        <h2>{{home_route.title}}</h2>
-        <p class="route-subtext">{{{home_route.subtext}}}</p>
-        {{#home_route.files}}
-        <div class="route-item">
-            <a target="_blank" href="{{file.url}}"><i class="fas fa-download"></i>{{name}}</a>
+        <div class="row">
+            <div class="main-description-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Curabitur in arcu ac purus fringilla mollis. Mauris lobortis dolor 
+                vitae arcu egestas, pretium lobortis urna aliquam. Aenean varius libero 
+                nec tellus porta gravida. Aenean cursus ultricies bibendum. Morbi semper 
+                massa sit amet ultricies maximus. Mauris id lorem elit. Vestibulum in orci 
+                ipsum. Integer et porta lectus. Morbi congue gravida elit, sed porttitor 
+                elit ultrices et. Suspendisse nec nibh nisi. Nam faucibus ac lorem in convallis. 
+                Nullam turpis ipsum, finibus nec porta non, imperdiet quis nisi. Nulla lorem 
+                felis, tincidunt vitae dapibus sed, mollis a tellus. Suspendisse sed urna ligula. 
+                Praesent auctor vitae purus quis aliquam. Donec ultrices est a felis dapibus semper.</p>
+            </div>
         </div>
-        {{/home_route.files}}
+    </div>
+</section>
+<section class="team-members">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h2>Team</h2>
+            </div>
+            <div class="col-sm-12 col-md-3 team-member">
+                <img class="team-member-image" src="img/ali.JPG">
+                <h3>Ali Shahid</h3>
+            </div>
+            <div class="col-sm-12 col-md-3 team-member">
+                <img class="team-member-image" src="img/bas.JPG">
+                <h3>Bas Ekkelenkamp</h3>
+            </div>
+            <div class="col-sm-12 col-md-3 team-member">
+                <img class="team-member-image" src="img/wiwi.JPG">
+                <h3>Wiwi To</h3>
+            </div>
+            <div class="col-sm-12 col-md-3 team-member">
+                <img class="team-member-image" src="img/onno.JPG">
+                <h3>Onno Prins</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="concepts">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h2>Concepten</h2>
+            </div>
+            <div class="col-sm-12 col-md-12 concept">
+                <h3>Concept 1</h3>
+                <img class="concept-image" src="img/car.jpeg">
+                <div class="concept-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur in arcu ac purus fringilla mollis. Mauris lobortis dolor 
+                    vitae arcu egestas, pretium lobortis urna aliquam. Aenean varius libero 
+                    nec tellus porta gravida.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 concept">
+                <h3>Concept 2</h3>
+                <img class="concept-image" src="img/car.jpeg">
+                <div class="concept-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur in arcu ac purus fringilla mollis. Mauris lobortis dolor 
+                    vitae arcu egestas, pretium lobortis urna aliquam. Aenean varius libero 
+                    nec tellus porta gravida.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 concept">
+                <h3>Concept 3</h3>
+                <img class="concept-image" src="img/car.jpeg">
+                <div class="concept-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur in arcu ac purus fringilla mollis. Mauris lobortis dolor 
+                    vitae arcu egestas, pretium lobortis urna aliquam. Aenean varius libero 
+                    nec tellus porta gravida.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 {{>partials/footer}}

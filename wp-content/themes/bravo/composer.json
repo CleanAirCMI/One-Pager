@@ -1,5 +1,5 @@
 {
   "require": {
-    "salesforce/handlebars-php": "dev-master"
+    "salesforce/handlebars-php": "1.*"
   }
 }
