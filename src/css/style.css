@@ -67,19 +67,34 @@ h3 {
 }
 
 .team-member {
-  margin-bottom: 1rem;
+  margin: 2rem 0;
+  cursor: pointer;
 }
 
 .team-member h3 {
   text-align: center;
   margin: 16px 0;
   color: lightgrey;
+  transition: all 0.1s;
+}
+
+.team-member:hover h3 {
+  color: #f90c82;
+  transition: opacity 0.2s;
 }
 
 .team-member-image {
   display: block;
   border-radius: 16px;
   width: 100%;
+  transition: all 0.2s ease-in;
+  filter: grayscale(1);
+}
+
+.team-member:hover .team-member-image {
+  transform: translateY(-8px);
+  transition: all 0.2s ease-out;
+  filter: grayscale(0);
 }
 
 .concepts {
@@ -88,7 +103,7 @@ h3 {
 }
 
 .concept {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .concepts h3 {

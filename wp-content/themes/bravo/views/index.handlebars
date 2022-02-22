@@ -42,9 +42,15 @@
             {{#concepts}}
             <div class="col-sm-12 col-md-12 concept">
                 <h3>{{name}}</h3>
-                <img class="concept-image" src="{{image}}">
-                <div class="concept-text">
-                    {{{content}}}
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <img class="concept-image" src="{{image}}">
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="concept-text">
+                            {{{content}}}
+                        </div>
+                    </div>
                 </div>
             </div>
             {{/concepts}}
