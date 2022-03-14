@@ -131,6 +131,64 @@ h3 {
   font-size: 20px;
 }
 
+/* Slideshow */
+.slideshow-container {
+  position: relative;
+}
+
+.slideshow-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: 400px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #f90c82;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #f90c82;
+  color: #ffffff;
+}
+
+.slideshow-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 footer {
   padding: 1rem 0;
   background-color: #0b0d1f;
