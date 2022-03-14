@@ -39,13 +39,14 @@ if ( have_posts() ) :
             $data['concepts'][] = [
                 'name' => $result->post_title,
                 'image' => wp_get_attachment_image_src( get_post_thumbnail_id($result->ID), 'hd')[0],
+                'slideshow' => acf_photo_gallery('concept_slideshow', $result->ID),
                 'content' => $result->post_content
             ];
         }
     endwhile;
 endif;
 
-// print_r($data['members']);
+// print_r($data['concepts']);
 
 set_wp_header_footer();
 echo $compiler->render('index', $data);
