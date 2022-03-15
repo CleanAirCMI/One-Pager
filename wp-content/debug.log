@@ -90,3 +90,62 @@ Stack trace:
 [14-Mar-2022 21:05:50 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 41
 [14-Mar-2022 21:06:40 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 41
 [14-Mar-2022 21:06:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 41
+[15-Mar-2022 14:05:31 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:05:31 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:06:36 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:06:36 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:09:54 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:09:54 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:10:01 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:10:01 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:11:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:11:44 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:12:40 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:12:40 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:14:03 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:14:03 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:15:28 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:15:28 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:15:36 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:15:36 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:15:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:15:44 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:15:52 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:15:52 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:16:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:16:10 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:16:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:16:13 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:16:16 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:16:16 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:24:50 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:24:50 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:25:02 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:25:02 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:25:05 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:25:05 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:25:22 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:25:22 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:25:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:25:33 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:25:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:25:35 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:25:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:25:44 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:26:30 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:26:30 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:27:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:27:00 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:27:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:27:33 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:28:57 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:28:57 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:29:15 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:29:15 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:29:22 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:29:22 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:32:32 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:32:32 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:33:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44
+[15-Mar-2022 14:33:45 UTC] PHP Notice:  Undefined variable: index in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 48
+[15-Mar-2022 14:33:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/Stimular/wp-content/themes/bravo/page-home.php on line 44

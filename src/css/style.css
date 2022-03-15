@@ -143,7 +143,9 @@ h3 {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1,
+.mySlides2,
+.mySlides3 {
   display: none;
   height: 400px;
 }

@@ -35,13 +35,17 @@ if ( have_posts() ) :
             'order' => 'ASC'
         );
         $results = get_posts($args);
+        $slideindex = 0;
         foreach($results as $result){
             $data['concepts'][] = [
                 'name' => $result->post_title,
+                'index' => $slideindex,
+                'slide' => $slideindex+1,
                 'image' => wp_get_attachment_image_src( get_post_thumbnail_id($result->ID), 'hd')[0],
                 'slideshow' => acf_photo_gallery('concept_slideshow', $result->ID),
                 'content' => $result->post_content
             ];
+            $slideindex++;
         }
     endwhile;
 endif;

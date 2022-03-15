@@ -45,12 +45,12 @@
                     <div class="col-sm-12 col-md-6">
                         <div class="slideshow-container">
                             {{#slideshow}}
-                            <div class="mySlides">
+                            <div class="mySlides{{../slide}}">
                                 <img src="{{full_image_url}}">
                             </div>
                             {{/slideshow}}
-                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            <a class="prev" onclick="plusSlides(-1, {{index}})">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, {{index}})">&#10095;</a>
                             </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
