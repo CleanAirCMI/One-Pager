@@ -17,6 +17,9 @@ if ( have_posts() ) :
             endwhile;
         endif;
         $data['main_description'] = get_field('main_description');
+        $data['mvp']['title'] = get_field('mvp-title');
+        $data['mvp']['image'] = get_field('mvp-image');
+        $data['mvp']['content'] = get_field('mvp-content');
 
         $args = array(
             'post_type' => 'members',
@@ -50,7 +53,7 @@ if ( have_posts() ) :
     endwhile;
 endif;
 
-// print_r($data['concepts']);
+// print_r($data['mvp']);
 
 set_wp_header_footer();
 echo $compiler->render('index', $data);

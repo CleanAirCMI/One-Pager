@@ -73,6 +73,14 @@ h3 {
   text-decoration: none;
 }
 
+.main-description-text h2 {
+  color: #ff57ab;
+}
+
+.main-description-text h3 {
+  color: #ff57ab;
+}
+
 .team-members {
   padding: 2rem 0;
   background-color: #0f1124;
@@ -106,7 +114,7 @@ h3 {
 }
 
 hr {
-  color: white;
+  color: white !important;
 }
 
 .concepts {
@@ -115,6 +123,10 @@ hr {
 }
 
 .concepts h3 {
+  color: #ff57ab;
+}
+
+.concepts a {
   color: #ff57ab;
 }
 
