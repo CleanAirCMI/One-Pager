@@ -10,6 +10,7 @@ h3 {
 
 h1 {
   font-size: 54px;
+  font-family: "Fredoka", sans-serif;
 }
 
 h2 {
@@ -57,7 +58,7 @@ h3 {
 
 .main-description {
   padding: 2rem 0;
-  background-color: #161935;
+  background-color: #0f1124;
   color: lightgrey;
   font-size: 24px;
   font-weight: 300;
@@ -68,13 +69,13 @@ h3 {
 }
 
 .main-description-text a {
-  color: #f90c82;
+  color: #ff57ab;
   text-decoration: none;
 }
 
 .team-members {
   padding: 2rem 0;
-  background-color: #161935;
+  background-color: #0f1124;
 }
 
 .team-member {
@@ -85,13 +86,8 @@ h3 {
 .team-member h3 {
   text-align: center;
   margin: 16px 0;
-  color: lightgrey;
+  color: #ff57ab;
   transition: all 0.1s;
-}
-
-.team-member:hover h3 {
-  color: #f90c82;
-  transition: opacity 0.2s;
 }
 
 .team-member-image {
@@ -106,19 +102,24 @@ h3 {
   transform: translateY(-8px);
   transition: all 0.2s ease-out;
   filter: grayscale(0);
+  border-radius: 0;
+}
+
+hr {
+  color: white;
 }
 
 .concepts {
-  background-color: #161935;
+  background-color: #0f1124;
   padding: 2rem 0;
 }
 
 .concept {
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
 }
 
 .concepts h3 {
-  color: #f90c82;
+  color: #ff57ab;
 }
 
 .concept-image {
@@ -164,7 +165,7 @@ h3 {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: #f90c82;
+  color: #ff57ab;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -181,7 +182,7 @@ h3 {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: #f90c82;
+  background-color: #ff57ab;
   color: #ffffff;
 }
 
@@ -193,7 +194,7 @@ h3 {
 
 footer {
   padding: 1rem 0;
-  background-color: #0b0d1f;
+  background-color: #1f2135;
   text-align: center;
   color: #56e9ff;
 }
