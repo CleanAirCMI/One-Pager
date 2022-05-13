@@ -203,3 +203,5 @@ Stack trace:
 [12-May-2022 19:33:18 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/School/Medialab/CleanAir/wp-content/themes/cleanair/page-home.php on line 48
 [12-May-2022 19:34:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/School/Medialab/CleanAir/wp-content/themes/cleanair/page-home.php on line 48
 [12-May-2022 19:34:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/School/Medialab/CleanAir/wp-content/themes/cleanair/page-home.php on line 48
+[13-May-2022 07:28:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/School/Medialab/CleanAir/wp-content/themes/cleanair/page-home.php on line 48
+[13-May-2022 07:28:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/School/Medialab/CleanAir/wp-content/themes/cleanair/page-home.php on line 48

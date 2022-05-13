@@ -7,7 +7,6 @@ if ( have_posts() ) :
     while ( have_posts() ) : the_post(); 
         $data['title'] = get_the_title();
         $data['header'] = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id()), 'hd')[0];
-        // $data['content'] = get_the_content();
         if( have_rows('title_main') ):
             while ( have_rows('title_main') ) : the_row();
                 $data['title_main'] = [
@@ -53,8 +52,6 @@ if ( have_posts() ) :
         }
     endwhile;
 endif;
-
-// print_r($data['mvp']);
 
 set_wp_header_footer();
 echo $compiler->render('index', $data);
