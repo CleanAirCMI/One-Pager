@@ -30,9 +30,10 @@ h3 {
 
 .title-main-image {
   height: 100%;
-  background-position: center;
+  /* background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #F2F2F2;
 }
 
 .title-main-overlay {
@@ -45,22 +46,21 @@ h3 {
   align-items: center;
 }
 
-.title-main-text {
-  text-align: center;
+.title-main-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.title-main-text h1 {
-  font-size: 80px;
-}
-
-.title-main-text span {
-  color: #2e3f34;
+.title-main-image img{
+  display: block;
+  height: 500px;
 }
 
 .main-description {
   padding: 2rem 0;
-  background-color: #e1e7e9;
-  color: #6a8485;
+  background-color: #d8e5e9;
+  color: #333333;
   font-size: 24px;
   font-weight: 300;
 }
@@ -70,21 +70,21 @@ h3 {
 }
 
 .main-description-text a {
-  color: #2e3f34;
+  color: #333333;
   text-decoration: none;
 }
 
 .main-description-text h2 {
-  color: #2e3f34;
+  color: #333333;
 }
 
 .main-description-text h3 {
-  color: #2e3f34;
+  color: #333333;
 }
 
 .team-members {
   padding: 2rem 0;
-  background-color: #e1e7e9;
+  background-color: #d8e5e9;
 }
 
 .team-member {
@@ -95,7 +95,7 @@ h3 {
 .team-member h3 {
   text-align: center;
   margin: 8px 0;
-  color: #2e3f34;
+  color: #333333;
   transition: all 0.1s;
 }
 
@@ -103,37 +103,35 @@ h3 {
   display: block;
   text-align:center;
   font-size: 16px;
-  color:#2e3f34;
+  color:#333333;
 }
 
 .team-member-image {
   display: block;
   width: 100%;
   transition: all 0.2s ease-in;
-  filter: grayscale(1);
 }
 
 .team-member:hover .team-member-image {
   transition: all 0.2s ease-out;
-  filter: grayscale(0);
   border-radius: 0;
 }
 
 hr {
-  color: #2e3f34 !important;
+  color: #333333 !important;
 }
 
 .concepts {
-  background-color: #e1e7e9;
+  background-color: #d8e5e9;
   padding: 2rem 0;
 }
 
 .concepts h3 {
-  color: #2e3f34;
+  color: #333333;
 }
 
 .concepts a {
-  color: #2e3f34;
+  color: #333333;
 }
 
 .concept-image {
@@ -142,7 +140,7 @@ hr {
 }
 
 .concept-text {
-  color: #6a8485;
+  color: #333333;
   font-size: 20px;
 }
 
@@ -179,7 +177,7 @@ hr {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: #2e3f34;
+  color: #333333;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -196,7 +194,7 @@ hr {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: #2e3f34;
+  background-color: #1A1A1A;
   color: #ffffff;
 }
 
@@ -208,7 +206,7 @@ hr {
 
 footer {
   padding: 1rem 0;
-  background-color: #2e3f34;
+  background-color: #333333;
   text-align: center;
   color: #e1e7e9;
 }

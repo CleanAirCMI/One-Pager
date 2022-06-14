@@ -10,8 +10,7 @@ if ( have_posts() ) :
         if( have_rows('title_main') ):
             while ( have_rows('title_main') ) : the_row();
                 $data['title_main'] = [
-                    'title' => get_sub_field('title'),
-                    'subtitle' => get_sub_field('subtitle')
+                    'image' => get_sub_field('image'),
                 ];
             endwhile;
         endif;

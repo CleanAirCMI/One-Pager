@@ -6,11 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /School/Medialab/CleanAir/
+RewriteBase /School/Medialab/CleanAir_Onepager//
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /School/Medialab/CleanAir/index.php [L]
+RewriteRule . /School/Medialab/CleanAir_Onepager//index.php [L]
 </IfModule>
 
 # END WordPress
